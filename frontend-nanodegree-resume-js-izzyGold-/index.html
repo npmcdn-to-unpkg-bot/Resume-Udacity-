@@ -23,13 +23,18 @@
             <a class="navigation" href="#workExperience">Work</a>
             <a class="navigation" href="#education">Education</a>
             <a class="navigation" href="#mapDiv">Map</a>
+             <a class="navigation" href="#projects">Projects</a>
         </nav>
+
         <div id="header" class="center-content clear-fix">
             <span id="role"></span>
             <hr>
-
+        <div class="row">
+            <div class="col-md-12">
             <div class="displaySkills">
             </div>
+        </div>
+        <div class="col-md-12">
             <h3 id="contactH3">Contact Info</h3>
 
             <div class="contactPic">
@@ -39,6 +44,8 @@
 
             <div class="contactDetails">
                 <ul id="topContacts"></ul>
+            </div>
+        </div>
             </div>
         </div>
 
@@ -111,6 +118,26 @@
     <script src="http://apis.google.com/js/plusone.js"></script>
     <script src="js/resumeBuilder.js"></script>
     <script>
+
+
+var myIamge = document.querySelector('#header');
+
+myIamge.onClick = function(){
+
+var mySrc = myIamge.getAttribute('src');
+
+if (mySrc === "images/me.jpg") {
+
+    myIamge.setAttribute('src',"images/flordi.jpg");
+
+}else{
+    myIamge.setAttribute('src',"images/me.jpg");
+
+}
+
+}
+
+
         if (document.getElementsByClassName('flex-item').length === 0) {
             document.getElementById('topContacts').style.display = 'none';
         }
