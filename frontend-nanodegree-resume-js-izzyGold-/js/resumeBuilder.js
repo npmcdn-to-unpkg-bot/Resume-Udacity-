@@ -8,7 +8,7 @@ var work = {
             "location": "jerusalem",
             "description": "Team Project, Database, frontend, Mvc."
         }, {
-            "employer": "ecommerceinnovators.",
+            "employer": "Ecommerceinnovators.",
             "title": "Frontend developer",
             "dates": "May 2016 - July 2016",
             "location": "Bet shemesh",
@@ -96,7 +96,7 @@ var bio = {
     "name": "Izzy Goldman",
     "role": "Web developer",
     "welcomeMessage": "Welcome to my resume",
-    "skills": ["Frontend developer ", " JS", " HTML5", " CSS3", " JQuery", "AJAX"],
+    "skills": ["Frontend developer ", " JS", " HTML5", " CSS3", " JQuery", "AJAX","BootStrap"],
     "biopic": "images/me.jpg",
 
 
